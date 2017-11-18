@@ -1,0 +1,490 @@
+/* Home Page Styles */
+#HomePage {
+  background-image: url("UYB Photos/instawalli-139453.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: whitesmoke;
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+}
+
+#BodyHome {
+  margin-bottom: 4%;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  overflow: scroll;
+}
+
+#communities {
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+  color: whitesmoke;
+}
+
+#education {
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+  color: whitesmoke;
+}
+
+#education h2, #communities h2 {
+  text-align: center; 
+}
+
+#education a, #communities a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+#education a:hover, #communities a:hover {
+  text-decoration: underline;
+}
+
+#BodyHome a {
+  text-decoration: none;
+  color: #f05a30;
+}
+
+#BodyHome a:hover {
+  color: #1d2e5c;
+}
+
+#strategicPlan {
+    margin-top: 15px;
+}
+
+#strategicPlan h2 {
+    text-align: center;
+}
+
+#strategicPlan a {
+  color: #f05a30;
+  text-decoration: none;
+}
+
+#strategicPlan a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+    #education, #communities {
+        font-size: 1.4rem;
+    }
+}
+
+/* Bios Page Styles */
+#biosPage {
+  background-color: whitesmoke;
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+}
+
+#patti {
+  margin-bottom: 5%;
+  margin-top: 2.5%;
+}
+
+#ken {
+  margin-bottom: 7.5%;
+}
+
+#pattiPic img {
+  width: 245px;
+  height: 360px;
+}
+
+#kenPic img {
+  width: 245px;
+  height: 360px;
+}
+
+#pattiBio {
+  color: #1d2e5c;
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+}
+
+#pattiBio h1 {
+  text-align: left;
+  color: #f05a30;
+}
+
+#kenBio {
+  color: #1d2e5c;
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+}
+
+#kenBio h1 {
+  text-align: left;
+  color: #f05a30;
+}
+
+#description {
+  color: #1d2e5c;
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;  
+}
+
+@media only screen and (max-width: 736px) {
+  #pattiPic img, #kenPic img {
+    display: block;
+    margin: auto;
+    }
+}
+
+/* Education Page Styles */
+#EducationPage {
+  background-image: url("UYB Photos/baim-hanif-89800.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+}
+
+#Education {
+  margin: auto;
+  position: relative;
+  justify-content: center; 
+}
+
+#Education h3 {
+  color: whitesmoke;
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+}
+
+#Education h1 {
+  color: whitesmoke;
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+  text-align: center;
+  margin-bottom: 2.5%;
+}
+
+#Education a {
+  color: whitesmoke;
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  #Education h1 {
+    font-size: 3.5rem;
+    }
+    
+    #Education h3 {
+    font-size: 2rem;
+    }
+}
+
+/* Communities Page Styles */
+#CommunitiesPage {
+  background-image: url("UYB Photos/nasa-53884.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-attachment: fixed;
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+}
+
+#CirclesHeading h1 {
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: 2.5%;
+}
+
+.CirclesBackground {
+  background-color: rgba(0,0,0,0.45);
+  padding-top: 1.5%;
+}
+
+#AboutCircles {
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+  color: whitesmoke; 
+}
+
+#CirclesContinued {
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+  color: whitesmoke;
+  text-align: left;
+}
+
+#CirclesContinued h3 {
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+  color: whitesmoke;
+  text-align: left;
+}
+
+#AboutCircles h2, #CirclesContinued, h2 {
+    text-align: center;
+}
+
+#CirclesContinued li {
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+  color: whitesmoke;
+  text-align: left;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #CommunitiesPage h1 {
+    font-size: 3.5rem;
+    }
+    
+    #CommunitiesPage h2 {
+    font-size: 2.7rem;
+    }
+    
+    #CommunitiesPage h3 {
+    font-size: 2rem;
+    }
+}
+
+/* Volunteer Page Styles */
+#VolunteerPage {
+  background-image: url("UYB Photos/jonatan-pie-198664.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+}
+
+#VolunteerPage h1 {
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: 4.5%;
+}
+#Board {
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#volunteer {
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#volunteer li {
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+  color: whitesmoke;
+  text-align: left;
+}
+
+#volunteer li a {
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+  color: whitesmoke;
+  text-align: left;
+}
+
+#VolunteerPage .btn-primary {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 7.5px;
+  background-color: rgba(29,46,92,0.75);
+  margin-top: 25px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  width: 150px;
+}
+
+#VolunteerPage .btn-primary:hover {
+  background-color: rgba(240,90,48,0.75);
+  width: 175px;
+}
+
+#VolunteerPage .btn-primary a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.75rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+  #VolunteerPage h1 {
+      font-size: 3rem;
+    }
+    
+    #VolunteerPage h2 {
+      font-size: 2.6rem;
+    }
+    
+    #VolunteerPage h3 {
+      font-size: 1.9rem;
+    }
+    
+    #VolunteerPage .btn-primary a {
+      font-size: 1.6rem;
+    }
+}
+
+/* Donate Page Styles */
+#DonatePage {
+  background-image: url("UYB Photos/justin-luebke-43166.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+}
+
+#ComingSoon h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 8rem;
+  color: whitesmoke;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+#comingSoon h2 {
+  text-align: center;
+  font-family: cursive;
+  color: whitesmoke;
+  margin-top: 75px;
+}
+
+#payment form{ 
+  position: absolute;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+@media only screen and (max-width: 768px){
+  #comingSoon h2 {
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    }
+  #ComingSoon h1 {
+    font-size: 4.55rem; 
+    margin-top: 25px;
+    margin-bottom: 50px;
+    }
+}
+
+/* Logo styles */
+.logo img {
+  width: 20%;
+  margin: 0%;
+}
+
+.logo h5 {
+  margin: 0%;
+  font-family: 'Marker Felt', sans-serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  position: relative;
+  margin-left: 9%;
+  color: rgb(240,90,48);
+  width: 12.5%;
+}
+
+@media only screen and (max-width: 700px){
+  .logo h5 {
+    width: 15%;
+    font-size: .6rem;
+    position: relative;
+    margin-left: 7%;
+    }
+}
+
+#thankYouPage {
+  background-image: url("UYB Photos/jonatan-pie-234237.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: fantasy, 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+}
+
+.thankYou h1{
+  text-align: center;
+  font-family: fantasy, 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+  font-size: 10rem;
+  margin-top: 12.5%;
+  color: whitesmoke;
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .thankYou h1 {
+    margin: auto;
+    width: 100%;
+    font-size: 6rem;
+    margin-top: 20%;
+    }
+}
+
+/* Photo Credit Style */
+.photoCred {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+
+/* Misc Styles */
+
+.fa-plus {
+    color: #1d2e5c;
+    margin-left: 2%;
+}
+
+.fa-minus {
+    color: #1d2e5c;
+    margin-left: 2%;
+}
+
+#navIcon {
+    width: 15px;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+.caret {
+    transition: 0.4s;
+}
+
+@media only screen and (max-width: 768px) {
+    .fa-plus {
+        color: #1d2e5c;
+        margin-left: 1%;
+}
+
+    .fa-minus {
+        color: #1d2e5c;
+        margin-left: 1%;
+}
+}
+
+/* Initiative Page Styles */
+#initiativePage {
+  background-color: whitesmoke;
+  color: #1d2e5c;
+  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+}
+
+#initiativePage .btn-primary{
+  margin-left: 2%;
+}
+
+@media only screen and (max-width: 768px) {
+  #initiativePage h1 {
+    font-size: 2.9rem;
+    }
+    #initiativePage h3 {
+        font-size: 1.85rem;
+    }
+    
+}
+
+@media only screen and (max-width: 700px) {
+  #initiativePage h1 {
+    font-size: 2.6rem;
+    }
+    #initiativePage h3 {
+        font-size: 1.6rem;
+    }
+}
+
