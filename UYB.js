@@ -1,13 +1,3 @@
-/*function navBar() {
-    var x = document.getElementById("topNav");
-    if (x.className === "navbar") {
-        x.className += " responsive";
-    } 
-    else {
-        x.className = "navbar";
-    }
-}*/
-
 $(document).ready(() => {
     /* Dropdown Toggle Effects */
    $('.dropdown-toggle').on('mouseenter', () => {
@@ -23,9 +13,6 @@ $(document).ready(() => {
         $('.dropdown-menu').slideUp('fast');
         $('.caret').css({"-webkit-transform": "rotate(0deg) translate(0px, 0px)", "transform": "rotate(0deg) translate(0px, 0px)"});
     });
-    /*$('#marketing').on('click', () => {
-        $('#marketingInfo').slideToggle();
-    });*/
     
     /* btn-primeary resizing */
     function resize() {
@@ -35,6 +22,8 @@ $(document).ready(() => {
         else {
             $('.btn-primary').removeClass('btn-xs');}
         }
+    
+    /* Nav menu Icon change */
     $(window).resize(resize);
         resize();
     $('#navIcon').on('click', () => {
@@ -64,7 +53,7 @@ $(document).ready(() => {
         $('.adminInfo').hide();
     }); */
     
-    /* Toggle Initaitives Info */
+    /* Toggle Initaitives Page Info */
     $('.marketingInfo, .fundraisingInfo, .communityOutreachInfo, .educationInfo, .adminInfo').hide();
     $('#marketingPlus').on('click', () => {
         $('#marketingPlus').toggleClass('fa-minus').toggleClass('fa-plus').fadeToggle('.fa-minus').fadeToggle('.fa-plus')

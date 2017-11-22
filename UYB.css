@@ -460,18 +460,18 @@
 
 /* Initiative Page Styles */
 #initiativePage {
-  background-color: whitesmoke;
-  color: #1d2e5c;
-  font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+    background-color: whitesmoke;
+    color: #1d2e5c;
+    font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
 }
 
 #initiativePage .btn-primary{
-  margin-left: 2%;
+    margin-left: 2%;
 }
 
 @media only screen and (max-width: 768px) {
-  #initiativePage h1 {
-    font-size: 2.9rem;
+    #initiativePage h1 {
+        font-size: 2.9rem;
     }
     #initiativePage h3 {
         font-size: 1.85rem;
@@ -487,4 +487,48 @@
         font-size: 1.6rem;
     }
 }
+
+/* Spread the Word Page Styles */
+#spreadTheWordPage {
+    background-color: whitesmoke;
+    color: whitesmoke;
+    font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
+    background-image: url("UYB Photos/robert-wiedemann-177442.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#spreadTheWordPage h2 {
+    text-align: left;
+}
+
+#spreadTheWordPage h1 {
+    text-align: center;
+}
+
+#spreadTheWordPage .btn-primary{
+    margin-left: 2%;
+}
+
+#spreadTheWordPage .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 98%;
+    text-align: right;
+}
+
+/* @media only screen and (max-width: 736px) {
+    #spreadTheWordPage h1 {
+        font-size: 2.6rem;
+    }
+    #spreadTheWordPage h3 {
+        font-size: 1.6rem;
+    }
+    spreadTheWordPage h2 {
+        font-size: ;
+    }
+} */
 
