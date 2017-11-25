@@ -175,7 +175,7 @@
 
 /* Communities Page Styles */
 #CommunitiesPage {
-  background-image: url("UYB Photos/nasa-53884.jpg");
+  background-image: url("UYB Photos/Screen Shot 2017-11-24 at 7.35.58 PM.png");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;  
@@ -188,11 +188,6 @@
   color: whitesmoke;
   text-align: center;
   margin-bottom: 2.5%;
-}
-
-.CirclesBackground {
-  background-color: rgba(0,0,0,0.45);
-  padding-top: 1.5%;
 }
 
 #AboutCircles {
@@ -493,7 +488,7 @@
     background-color: whitesmoke;
     color: whitesmoke;
     font-family: 'Brandon Grotesque', 'Source Sans Pro', sans-serif;
-    background-image: url("UYB Photos/robert-wiedemann-177442.jpg");
+    background-image: url("UYB Photos/Screen Shot 2017-11-24 at 7.31.39 PM.png");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -519,16 +514,4 @@
     width: 98%;
     text-align: right;
 }
-
-/* @media only screen and (max-width: 736px) {
-    #spreadTheWordPage h1 {
-        font-size: 2.6rem;
-    }
-    #spreadTheWordPage h3 {
-        font-size: 1.6rem;
-    }
-    spreadTheWordPage h2 {
-        font-size: ;
-    }
-} */
 
