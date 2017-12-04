@@ -26,7 +26,7 @@ $(document).ready(() => {
     /* Nav menu Icon change */
     $(window).resize(resize);
         resize();
-    $('#navIcon').on('click', () => {
+    $('.navbar-toggle').on('click', () => {
         $('#navIcon').toggleClass('fa-times').toggleClass('fa-bars');
     });
     
