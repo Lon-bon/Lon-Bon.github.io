@@ -453,6 +453,24 @@
 }
 }
 
+#social:hover {
+    background-color: rgba(0,0,0,0);
+}
+
+#social:active {
+    background-color: rgba(0,0,0,0);
+}
+
+#social:focus {
+    background-color: rgba(0,0,0,0);
+}
+
+@media only screen and (max-width: 768px) {
+    #social {
+        float: left;
+    }
+}
+
 /* Initiative Page Styles */
 #initiativePage {
     background-color: whitesmoke;
