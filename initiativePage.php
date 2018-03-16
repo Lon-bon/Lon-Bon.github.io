@@ -1,54 +1,13 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link href="UYB.css" type="text/css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-        <link href="bootstrap.css" type="text/css" rel="stylesheet">
-        <script src="https://use.fontawesome.com/5c272928af.js"></script>
-        <script src="jquery-3.2.1.min.js" type="text/javascript"></script>
-        <script type="text/javascript" src="bootstrap.min.js"></script>
-        <title>Strategic Initiatives</title>
-    </head>
-    <body id="initiativePage">
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
-                        <i class="fa fa-bars" aria-hidden="true" id="navIcon"></i>
-                    </button>
-                    <a class="navbar-brand" href="index.html">Unform Your Bias&trade;</a>
-                </div>
-            <div class="collapse navbar-collapse" id="collapse-navbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Bios.html">Bios</a></li>
-                    <li><a href="UYBEducation.html">Education</a></li>
-                    <li><a href="UYBCommunities.html">Communities</a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" href="UYBVolunteer.html">Volunteer <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="initiativePage.html#marketing">Marketing</a></li>
-                        <li><a href="initiativePage.html#fundraising">Fundraising</a></li>
-                        <li><a href="initiativePage.html#communityOutreach">Community Outreach</a></li>
-                        <li><a href="initiativePage.html#educationInitiative">Education</a></li>
-                        <li><a href="initiativePage.html#administration">Administration</a></li>
-                    </ul>
-                    </li>
-                    <li><a href="UYBDonate.html">Donate</a></li>
-                    <li><a href="spreadTheWord.html">Spread The Word</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="https://twitter.com/UnformYourBias" target="_blank" id="social"><i class="fa fa-twitter fa-lg"></i></a></li>
-                    <li><a href="https://www.facebook.com/UnformYourBias/" target="_blank" id="social"><i class="fa fa-facebook-official fa-lg"></i></a></li>
-                </ul>
-                </div>
-            </div>
-        </nav>
+<?php
+$pageTitle = "Strategic Initiatives";
+$section = "initiativePage";
+include('inc/header.php');
+?>
         <div class="logo">
             <img src="UYB%20Photos/Screen%20Shot%202017-05-26%20at%2011.06.13%20AM.png" alt="UYB LOGO">
           <h5>A Citizen Collaboration<br/>Non Profit Movement</h5>
-        </div>
-        <div class="container">
+        </div><br/>
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="marketing">
                     <h1><strong>Strategic Initiative: Marketing (Social Networking)</strong><i class="fa fa-plus" aria-hidden="true" id="marketingPlus"></i></h1>
@@ -92,7 +51,7 @@
                             <li><h3>Supports recruiting and management of Committee</h3></li>
                             </ul>
                         </ul>
-                        <h3><strong style="text-decoration: underline">Additional Volunteers Needed for Marketing Committee</strong>:<a href="volunteerApplication.html" class="btn btn-primary">Apply Now!</a></h3>
+                        <h3><strong style="text-decoration: underline">Additional Volunteers Needed for Marketing Committee</strong>:<a href="volunteerApplication.php" class="btn btn-primary">Apply Now!</a></h3>
                         <ul>
                             <li><h3>We will work to recruit at least 4-5, but ideally <strong style="background-color: #f05a30; text-decoration: underline">7-10 Non-Board Volunteers</strong></h3></li>
                             <ul>
@@ -145,7 +104,7 @@
                                 <li><h3>Recruits and manages a Special Team of people to develop programs, and build relationship</h3></li>
                             </ul>
                         </ul>
-                        <h3><strong style="text-decoration: underline">Additional Volunteers Needed for Fundraising Committee</strong>:<a href="volunteerApplication.html" class="btn btn-primary">Apply Now!</a></h3>
+                        <h3><strong style="text-decoration: underline">Additional Volunteers Needed for Fundraising Committee</strong>:<a href="volunteerApplication.php" class="btn btn-primary">Apply Now!</a></h3>
                         <ul>
                             <li><h3>We will work to recruit <strong style="background-color: #f05a30; text-decoration: underline">8-12 Non-Board Volunteers </strong>to serve on Fundraising Committee to support events and efforts to secure Donors and Corporate Sponsors</h3></li>
                             <ul>
@@ -203,7 +162,7 @@
                                 <li><h3>Debrief with Facilitators to Add/Adjust Programming as needed</h3></li>
                             </ul>
                         </ul>
-                        <h3><strong style="text-decoration: underline">Additional Volunteers Needed</strong>:<a href="volunteerApplication.html" class="btn btn-primary">Apply Now!</a></h3>
+                        <h3><strong style="text-decoration: underline">Additional Volunteers Needed</strong>:<a href="volunteerApplication.php" class="btn btn-primary">Apply Now!</a></h3>
                         <ul>
                             <li><h3>We will recruit additional <strong style="background-color: #f05a30; text-decoration: underline">Facilitators</strong></h3></li>
                             <li><h3>For Phase 2: we will recruit <strong style="background-color: #f05a30; text-decoration: underline">1 Community Events Coordinator (Volunteer)</strong> to coordinate community efforts, to work 15 hours per week. This Coordinator could lead to a paid position with growth.<br/><br/><br/></h3></li>
@@ -306,6 +265,4 @@
                 </div>
             </div>
         </div>
-        <script src="UYB.js" type="text/javascript"></script>
-    </body>
-</html>
+        <?php include('inc/footer.php'); ?>
